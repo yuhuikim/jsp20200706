@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>Hello JSP</h1>
+<%
+String bookTitle="JSP 프로그래밍";
+String author = "최범균";
+%>
+<b><%=bookTitle%></b> (<%=author%>)입니다.
 </body>
 </html>
